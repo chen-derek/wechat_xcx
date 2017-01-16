@@ -1,0 +1,11 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo" bindtap="gotoLogs" >
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <button bindtap="gotoDemo01">{{motto}}</button>
+  <button bindtap="gotoDemo02">Demo2 测试</button>
+  <button bindtap="gotoMap">地图测试</button>
+</view>

@@ -1,0 +1,9 @@
+<!--demo01.wxml-->
+<view >
+  <text>{{sex}}</text>
+ <view >
+    <text>this is test demo!!!</text>
+    <text>{{myData.name}}</text>
+    <text>{{myData.age}}</text>
+  </view>
+</view>
